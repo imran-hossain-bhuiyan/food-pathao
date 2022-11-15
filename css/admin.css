@@ -1,0 +1,43 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(225deg, rgba(0, 0, 0, 0.709) 0%, rgba(2,97,97,1) 15%, rgba(2,96,77,0.46589057986475846) 32%, rgba(3,123,130,0.9420810560552346) 100%);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    text-align: center;
+    padding: 20px 0;
+}
+.text h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.left{
+    width: 10%;
+}
+
+.right{
+    width: 70%;
+}
+
+.btn{
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.add{
+    background: rgb(198, 198, 2);
+}
+
+.log-out{
+    background: rgba(0, 0, 0, 0.784);
+    color: aliceblue;
+}
+
+.text-left{
+    text-align: left !important;
+}

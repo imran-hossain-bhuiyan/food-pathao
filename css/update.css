@@ -1,0 +1,31 @@
+.style{
+    width: 500px;
+    margin: 50px auto;
+    font-weight: bold;
+    font-size: 19px;
+    background: rgb(0,173,176);
+background: linear-gradient(135deg, rgba(0, 173, 176, 0.777) 0%, rgba(76, 192, 167, 0.685) 19%, rgba(104, 191, 148, 0.644) 32%, rgba(132, 190, 128, 0.666) 45%, rgba(157, 189, 110, 0.725) 57%, rgba(0, 223, 175, 0.811) 100%);
+    border-radius: 8px;
+    padding:0 25px 35px 25px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+input{
+    padding: 8px 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Login&registration form </title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <div class="logo">
+                        <img src="../images/navlogo.png" alt="">
+                    </div>
+                    <h2>LOGIN</h2>
+                    <form action="">
+                        <input type="email" class="input-box" placeholder="Your Email ID" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                        <input type="checkbox"><span>Remember password</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openRegister()">I'm New Here</button>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <div class="card-back">
+                    <h2>register</h2>
+                    <form action="">
+                        <input type="text" class="input-box" placeholder="Your Name" required>
+                        <input type="tel" class="input-box" placeholder="Phone Number" required>
+                        <input type="email" class="input-box" placeholder="Your Email ID" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <input type="password" class="input-box" placeholder="Confirm password" required>
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                        <input type="checkbox"><span>Remember password</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script>
+        var card = document.getElementById("card");
+        
+        function openRegister(){
+            card.style.transform = "rotateY(-180deg)";
+        }
+        function openLogin(){
+            card.style.transform = "rotateY(0deg)";
+        }
+
+    </script>
+
+    
+</body>
+</html>
